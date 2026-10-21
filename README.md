@@ -1,0 +1,91 @@
+# 社会学选题与开题 · Sociology Topic Selection & Proposal Design
+
+> 把一个模糊的研究兴趣，经六道工序打磨成能写进开题报告和投稿信的研究问题、选题陈述与中英文标题。
+
+AI 时代答案越来越便宜，问题越来越贵。真正拉开学者差距的，不是谁读得多，而是谁能问出一个**学界未知、有知识价值、又能被经验证据裁决**的问题。这个技能就是把这条判断链变成可执行的工序。
+
+## 它做什么
+
+不是"帮你想一个题目"，而是逐道工序把用户自己的问题逼到可研究的形态。每道工序产出可保存的中间文本，用户确认后才进入下一道。
+
+| 工序 | 做什么 | 关键产出 |
+|---|---|---|
+| **S0 现状采集** | 要原句：一句话兴趣 / 草题 / 开题段落，原样粘贴 | 待加工材料 |
+| **S1 诊断** | 三问判别（学界未知？有知识价值？可被证据裁决？）＋八种问题病扫描（复合问题、隐藏预设、假两难、同义反复、规范问题、形而上问题、假开放问题、修辞问题） | **诊断卡**：原句 → 病灶 → 保留的合理内核 |
+| **S2 收窄** | Booth 三步句式、四要素（what / who / where / when）、140 字符压缩、To what extent 替代 yes-no 问法、主子问题分层 | 可研究的问题句 |
+| **S3 学术化升级** | 差异句（什么与什么、在什么上的不同）＋六要素自检；机制假说与至少两种替代假说配对；进阶做五层假设扫描（学派内 / 根隐喻 / 范式 / 意识形态 / 领域） | 差异句 + 假说对 |
+| **S4 规范化** | 类型标签、贡献方向、比较物（时间 / 组间 / 基准率）、操作化与 Feynman 检验；质性研究补六部件解剖 | 可操作化的问题 |
+| **S5 终检** | 一票否决清单：单句检验、小报语言检验、so what 硬答案、三反应测试、概念操作化、比较物齐备、意识形态自检五问 | 通过 / 回炉 |
+| **S6 交付** | 选题陈述卡（主问题 + 差异句 + 机制假说 + 两条替代假说及分歧点 + 理论对话对象 + 数据计划 + 不研究什么）＋中英标题各 3 个＋对标说明 | 开题可用成品 |
+
+核心增值在 S3：多数人的问题卡在"填补空白"——找到没人做过的格子就以为完成了。这个技能要求继续往下走一层，去质疑既有理论赖以成立**但没被写出来的背景假设**，否则产出的只是增量式研究。
+
+## 怎么用
+
+**作为技能安装**（WorkBuddy / Claude Code 类技能目录）：
+
+```bash
+git clone https://github.com/<your-name>/sociology-question-coach.git \
+  ~/.workbuddy/skills/sociology-question-coach
+```
+
+**直接触发**：把草题、开题段落或研究兴趣丢过来，说"帮我把这个收窄"、"这个问题能不能做"、"拟几个标题"、"对标一下 SSCI/CSSCI"。技能会先问你要材料，再逐道工序推进。
+
+**交互方式**：苏格拉底式——每道工序先反问，让用户自己答（"你的差异句是什么？""外行能问出你的问题吗？"），答完再指正。不直接甩成品，因为跳过诊断的改写在修辞上打转。
+
+## 目录结构
+
+```
+sociology-question-coach/
+├── SKILL.md                  # 六道工序主流程 + 交互纪律 + Gotchas
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+└── references/
+    ├── checklists.md         # 三问判别、八种问题病、终检一票否决、可行性三问、定性六部件
+    ├── examples.md           # 10 个好问题案例、12 个问题病病例、3 组升级改写对照
+    ├── templates.md          # 13 条中英句式、选题陈述卡模板、标题三式
+    ├── theory.md             # 差异性发问详解、五层假设表、问题化六步法、问题类型学
+    ├── journal-fit.md        # SSCI / CSSCI 三条契合线（教练经验层，已标注）
+    ├── glossary.md           # 术语中英对照
+    └── cheatsheet.md         # 决策规则、阈值、一句话判据
+```
+
+`SKILL.md` 只放主流程与导航，细则按需读 `references/`，避免一次把上下文塞满。
+
+## 方法依据
+
+六份提问方法文献的**全文精读**（非摘要综述），去重后提炼为工序与清单：
+
+| 文献 | 主要贡献 |
+|---|---|
+| 张静《学习提问：如何提出有价值的研究问题》 | 研究问题与日常问题的区分、三个提问方向（是什么 / 怎样运行 / 为什么）、价值由知识共同体裁定 |
+| Patrick White, *Developing Research Questions: A Guide for Social Scientists*, 2nd ed., Palgrave, 2017（ISBN 978-1-137-49047-6） | 问题从哪里来 → 什么算研究问题 → 什么使问题可研究 → 问题如何驱动设计 |
+| 赵鼎新《质性社会学研究的差异性发问和发问艺术》，《社会学研究》2021 年第 5 期，3–22 页 | 差异性发问、六要素自检、信息量档位、影子案例 |
+| Alvesson & Sandberg (2011), "Generating Research Questions Through Problematization", *Academy of Management Review* | gap-spotting vs problematization、假设的五层类型学 |
+| Alvesson & Sandberg (2013), *Constructing Research Questions: Doing Interesting Research*, SAGE | Davis "That's interesting!" 脉络、共识挑战型知识、三反应测试 |
+| Baker (2022), *Crafting Qualitative Research Questions*, SAGE（Qualitative Research Methods Series，ISBN 978-1-0718-1913-5） | 质性提问的范式—视角—传统对齐、六部件解剖 |
+
+## 边界（重要）
+
+- **不编造期刊信息**：不给任何期刊的影响因子、分区、审稿周期、栏目要求。`journal-fit.md` 只给"议题契合 × 方法契合 × 理论对话契合"的匹配逻辑，具体刊物要求请查当期官网。
+- **不做录用预测**：能否录用取决于审稿人、编辑与稿源，不在本技能射程内。
+- **不替用户虚构研究内容**：数据、案例、假说必须长在用户材料上；材料太薄时退回 S0 要材料，而不是编一个示范问题。
+- **不适用于自然科学与工程选题**：清单与句式建立在社会科学（尤其社会学）的问题类型学上。
+- **SSCI / CSSCI 对标属教练经验层**：它是启发式的匹配逻辑，不是刊物官方口径，也不是文献结论。
+
+## 许可
+
+见 [LICENSE](LICENSE)。
+
+---
+
+## English
+
+A sociology topic-selection and proposal coach. It takes a vague research interest or draft topic and walks it through six gated stages — intake, diagnosis, narrowing, academic upgrading, operationalization, final checks — until it becomes a research question, a topic statement and Chinese/English title candidates aligned with leading SSCI/CSSCI sociology journals.
+
+The value-add is the third stage: instead of stopping at gap-spotting (finding an empty cell in the literature), it pushes the user to problematize the unstated background assumptions a theory rests on, which is what separates consensus-challenging work from incremental work.
+
+Methodologically it is grounded in close readings of six sources: Zhang Jing's *Learning to Ask* (张静《学习提问》), White's *Developing Research Questions* (2nd ed., Palgrave, 2017), Zhao Dingxin's paper on variation-oriented questioning (*Sociological Studies*, 2021), Alvesson & Sandberg (2011, *AMR*; 2013, SAGE), and Baker's *Crafting Qualitative Research Questions* (SAGE, 2022).
+
+It is deliberately **not** a literature-review writer, a rewriter/translator, a data-analysis executor, or a reference verifier — and it will not invent journal metrics, acceptance odds, or research content the user has not supplied.
