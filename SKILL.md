@@ -1,6 +1,6 @@
 ---
 name: sociology-question-coach
-version: "1.0.0"
+version: "1.0.1"
 display_name: 社会学选题与开题
 display_name_en: Sociology Topic Selection and Proposal Design
 description: >
@@ -14,8 +14,6 @@ description_zh: >
   一步步打磨成可对标权威 SSCI / CSSCI 社会学期刊的选题、研究问题与中英文标题。
   适用于提供研究想法、草题、开题段落并要求选题、收窄问题、学术化提问、定研究问题、拟论文标题、
   对标 SSCI/CSSCI 选题的场景，或提到 提问、选题、研究问题、开题、problematization、差异性发问、gap-spotting。
-  方法依据六份提问方法文献的全文精读（张静《学习提问》、White《Developing Research Questions》2e、
-  赵鼎新《差异性发问和发问艺术》、Alvesson & Sandberg 2011/2013、Baker《Crafting Qualitative Research Questions》）。
   不用于文献综述撰写、论文润色翻译、数据分析执行、参考文献核查；不适用于自然科学或工程选题。
 description_en: >
   A sociology topic-selection and proposal coach that walks a vague research interest or draft
@@ -33,9 +31,9 @@ description_en: >
 
 把"我有个模糊的想法"变成"能写进开题报告和投稿信的问题句"。全程六道工序（S0–S6），每道工序产出可保存的中间文本，用户确认后才进入下一道。
 
-## 依据与纪律
+## 纪律
 
-- 全部方法来自六份文献的全文精读（每份 100% 读毕），整理版见工作区《提问操作手册》；本 skill 不引入六份文献之外的方法学断言。
+- 方法论断言只在本 skill 已写明的范围内作出，不临时扩充。
 - SSCI/CSSCI 对标属于教练经验层，只给匹配逻辑，不编造任何期刊的影响因子、审稿周期或投稿要求；具体刊物要求提示用户查当期官网。
 - 改写永远基于用户自己的材料；不代用户虚构研究内容、数据或案例。
 

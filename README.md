@@ -25,7 +25,7 @@ AI 时代答案越来越便宜，问题越来越贵。真正拉开学者差距�
 **作为技能安装**（WorkBuddy / Claude Code 类技能目录）：
 
 ```bash
-git clone https://github.com/BenjaminXi66/sociology-question-coach.git \
+git clone https://github.com/Cynthia-2028/sociology-question-coach.git \
   ~/.workbuddy/skills/sociology-question-coach
 ```
 
