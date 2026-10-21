@@ -53,39 +53,15 @@ sociology-question-coach/
 
 `SKILL.md` 只放主流程与导航，细则按需读 `references/`，避免一次把上下文塞满。
 
-## 方法依据
-
-六份提问方法文献的**全文精读**（非摘要综述），去重后提炼为工序与清单：
-
-| 文献 | 主要贡献 |
-|---|---|
-| 张静《学习提问：如何提出有价值的研究问题》 | 研究问题与日常问题的区分、三个提问方向（是什么 / 怎样运行 / 为什么）、价值由知识共同体裁定 |
-| Patrick White, *Developing Research Questions: A Guide for Social Scientists*, 2nd ed., Palgrave, 2017（ISBN 978-1-137-49047-6） | 问题从哪里来 → 什么算研究问题 → 什么使问题可研究 → 问题如何驱动设计 |
-| 赵鼎新《质性社会学研究的差异性发问和发问艺术》，《社会学研究》2021 年第 5 期，3–22 页 | 差异性发问、六要素自检、信息量档位、影子案例 |
-| Alvesson & Sandberg (2011), "Generating Research Questions Through Problematization", *Academy of Management Review* | gap-spotting vs problematization、假设的五层类型学 |
-| Alvesson & Sandberg (2013), *Constructing Research Questions: Doing Interesting Research*, SAGE | Davis "That's interesting!" 脉络、共识挑战型知识、三反应测试 |
-| Baker (2022), *Crafting Qualitative Research Questions*, SAGE（Qualitative Research Methods Series，ISBN 978-1-0718-1913-5） | 质性提问的范式—视角—传统对齐、六部件解剖 |
-
 ## 边界（重要）
-
 - **不编造期刊信息**：不给任何期刊的影响因子、分区、审稿周期、栏目要求。`journal-fit.md` 只给"议题契合 × 方法契合 × 理论对话契合"的匹配逻辑，具体刊物要求请查当期官网。
 - **不做录用预测**：能否录用取决于审稿人、编辑与稿源，不在本技能射程内。
-- **不替用户虚构研究内容**：数据、案例、假说必须长在用户材料上；材料太薄时退回 S0 要材料，而不是编一个示范问题。
+- **不替用户虚构研究内容**：数据、案例、假说必须长在用户材料上；材料太薄时退回S0要材料，而不是编一个示范问题。
 - **不适用于自然科学与工程选题**：清单与句式建立在社会科学（尤其社会学）的问题类型学上。
-- **SSCI / CSSCI 对标属教练经验层**：它是启发式的匹配逻辑，不是刊物官方口径，也不是文献结论。
+- **SSCI / CSSCI对标属教练经验层**：它是启发式的匹配逻辑，不是刊物官方口径，也不是文献结论。
 
 ## 许可
 
 见 [LICENSE](LICENSE)。
 
 ---
-
-## English
-
-A sociology topic-selection and proposal coach. It takes a vague research interest or draft topic and walks it through six gated stages — intake, diagnosis, narrowing, academic upgrading, operationalization, final checks — until it becomes a research question, a topic statement and Chinese/English title candidates aligned with leading SSCI/CSSCI sociology journals.
-
-The value-add is the third stage: instead of stopping at gap-spotting (finding an empty cell in the literature), it pushes the user to problematize the unstated background assumptions a theory rests on, which is what separates consensus-challenging work from incremental work.
-
-Methodologically it is grounded in close readings of six sources: Zhang Jing's *Learning to Ask* (张静《学习提问》), White's *Developing Research Questions* (2nd ed., Palgrave, 2017), Zhao Dingxin's paper on variation-oriented questioning (*Sociological Studies*, 2021), Alvesson & Sandberg (2011, *AMR*; 2013, SAGE), and Baker's *Crafting Qualitative Research Questions* (SAGE, 2022).
-
-It is deliberately **not** a literature-review writer, a rewriter/translator, a data-analysis executor, or a reference verifier — and it will not invent journal metrics, acceptance odds, or research content the user has not supplied.
